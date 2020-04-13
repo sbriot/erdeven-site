@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter SolidState', // <title>
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Erdeven Piscine - Ecole de natation', // <title>
+  manifestName: 'Erdeven Nat\'',
+  manifestShortName: 'ErdevenNat', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Erdeven Piscine',
+  subHeading: 'L’école de nat’ accueille les enfants et les adultes dans sa piscine couverte et chauffée. L\’occasion d\’apprendre à nager ou de se perfectionner pendant l’été.',
   // social
   socialLinks: [
     {

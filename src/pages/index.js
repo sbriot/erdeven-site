@@ -5,19 +5,13 @@ import Layout from '../components/Layout';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <div className="logo">
-          <span className="icon fa-diamond"></span>
-        </div>
+
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
       </div>
@@ -30,17 +24,15 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Initiation</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+            Cette première étape de l'apprentissage consiste
+            en une familiarisation de l'enfant avec l'eau.
+            Nous abordons les premières bases en fonction du vécu aquatique:
+            la respiration, le déplacement ventral et dorsal avec matériel ainsi que les immersions.
+            La priorité est de donner confiance à l'enfant afin qu'il développe son aisance aquatique.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+
           </div>
         </div>
       </section>
@@ -51,17 +43,14 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Apprentissage</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Quand l'enfant a acquis la confiance nécessaire, nous transmettons
+              les premiers éléments techniques de nage. Dos crawlé, brasse et crawl sont privilégiés.
+               Avec du support matériel, l'enfant apprend et assimile les mouvements propices.
+               Nous cherchons à lui donner la technique adaptée à son âge.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+
           </div>
         </div>
       </section>
@@ -72,93 +61,72 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Perfectionnement</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+            À ce stade là, l'enfant est autonome dans l'eau et nous
+            approfondissons ses connaissances techniques dans les 4 nages:
+            dos crawlé, brasse, crawl et papillon. Il peut s'agir d'une amélioration
+            technique de la nage (mouvements et respiration) mais aussi de la découverte d'une
+            nouvelle nage (papillon par exemple).
+
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+
           </div>
         </div>
       </section>
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
+          <h2 className="major">Infos Erdeven Piscine</h2>
+          <h4>Horaires</h4>
+          <ul className="alt">
+            <li>Ouvert non-stop du lundi au samedi de 9H00 à 15H00</li>
           </ul>
+          <h4>Tarifs 2020</h4>
+          <div className="table-wrapper">
+            <table className="alt">
+              <thead>
+                <tr>
+                  <th>Description</th>
+                  <th>Prix</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Séance unique</td>
+                  <td>17 €</td>
+                </tr>
+                <tr>
+                  <td>Stage de 6 leçons</td>
+                  <td>100 €</td>
+                </tr>
+                <tr>
+                  <td> Stage de 10 leçons</td>
+                  <td>150 €</td>
+                </tr>
+                <tr>
+                  <td>Stage de 15 leçons </td>
+                  <td>190 €</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+
+          Située à Erdeven, entre les commerces et la plage, sur le boulevard de l’Atlantique,
+          l’école de nat’ propose des leçons individualisées de natation. Les enfants sont deux
+          maximum par cours. Une méthode qui privilégie la familiarisation avec l'eau et
+          l'apprentissage des techniques de nage.
+          </p>
+          <h4>Erdeven Nat'</h4>
+          <blockquote>
+          Les leçons de natations sont dispensés par un maître-nageur diplômé d'état offrant à vos enfants des progrès visibles et des résultats garantis.
+          Une séance dure 20 minutes, la durée idéale pour une concentration de qualité et un engagement moteur optimal.
+          L'Ecole de Nat  s'appuie sur 3 niveaux d'enseignement: l'initiation, l'apprentissage et le perfectionnement.
+          </blockquote>
+
         </div>
-      </section>
+        </section>
     </section>
   </Layout>
 );
