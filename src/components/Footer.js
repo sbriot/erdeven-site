@@ -1,51 +1,44 @@
 import React from 'react';
 import config from '../../config';
+import {
+  withScriptjs,
+  withGoogleMap,
+  GoogleMap,
+  Marker,
+} from "react-google-maps";
+
+const MapWithAMarker = withScriptjs(withGoogleMap(props =>
+  <GoogleMap
+    defaultZoom={15}
+    defaultCenter={{ lat: 47.6160228, lng: -3.1664488}}
+  >
+    <Marker
+      position={{ lat: 47.6160228, lng: -3.1664488 }}
+
+    />
+  </GoogleMap>
+));
 export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
-        <h2 className="major">Get in touch</h2>
-        <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-        </p>
-        <form method="post" action="/#">
-          <div className="fields">
-            <div className="field">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field">
-              <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
+        <h2 className="major">Nous situer</h2>
+        <div className="row">
+          <div className="col-6">
+          <MapWithAMarker
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkE2jkuivqaYM1IFilOWh_mbZR_MmWaOk&v=3.exp&libraries=geometry,drawing,places"
+            loadingElement={<div style={{ height: `100%` }} />}
+            containerElement={<div style={{ height: `400px` }} />}
+            mapElement={<div style={{ height: `100%` }} />}
+          />
           </div>
-          <ul className="actions">
-            <li>
-              <input type="submit" value="Send Message" />
-            </li>
-          </ul>
-        </form>
-        <ul className="contact">
-          <li className="fa-home">{config.address}</li>
-
-          <li className="fa-phone">{config.phone}</li>
-
-          {config.socialLinks.map(social => {
-            const { icon, url } = social;
-            return (
-              <li className={`${icon}`} key={url}>
-                <a href={url}>{url}</a>
-              </li>
-            );
-          })}
-        </ul>
+          <div className="col-6">
+            <ul className="contact">
+              <li className="fa-home">{config.address}</li>
+              <li className="fa-phone">{config.phone}</li>
+            </ul>
+          </div>
+        </div>
         <ul className="copyright">
           <li>&copy; Solid State. All rights reserved.</li>
           <li>

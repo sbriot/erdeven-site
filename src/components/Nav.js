@@ -27,6 +27,16 @@ export default function Nav({ onMenuToggle = () => {} }) {
               Infos & Tarifs
             </Link>
           </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="#footer"
+            >
+              Nous situer
+            </Link>
+          </li>
         </ul>
         <a
           className="close"

@@ -8,7 +8,7 @@
 
 #footer {
   .inner {
-    @include padding(5em, 0);
+    @include padding(2em, 0);
     @include vendor('display', 'flex');
     @include vendor('flex-direction', 'row');
     @include vendor('flex-wrap', 'wrap');
@@ -25,7 +25,8 @@
     }
 
     .contact {
-      width: calc(50% - #{_size(section-spacing, large) * 0.5});
+      //width: calc(50% - #{_size(section-spacing, large) * 0.5});
+      width: 100%;
     }
 
     .copyright {
