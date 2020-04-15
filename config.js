@@ -35,4 +35,5 @@ module.exports = {
   ],
   phone: '06.61.04.33.67',
   address: 'Boulevard de l\' Atlantique au Spot, lieu d\'activité du bien être, 56410 Erdeven',
+
 };

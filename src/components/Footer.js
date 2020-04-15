@@ -24,15 +24,15 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Nous situer</h2>
         <div className="row">
-          <div className="col-6">
+          <div className="col-sm">
           <MapWithAMarker
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkE2jkuivqaYM1IFilOWh_mbZR_MmWaOk&v=3.exp&libraries=geometry,drawing,places"
+            googleMapURL={"https://maps.googleapis.com/maps/api/js?key=&v=3.exp&libraries=geometry,drawing,places"}
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `400px` }} />}
             mapElement={<div style={{ height: `100%` }} />}
           />
           </div>
-          <div className="col-6">
+          <div className="col-sm">
             <ul className="contact">
               <li className="fa-home">{config.address}</li>
               <li className="fa-phone">{config.phone}</li>
