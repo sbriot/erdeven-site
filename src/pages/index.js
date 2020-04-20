@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -8,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <h2>{config.heading}</h2>
+        <h2>{config.heading} - <FontAwesomeIcon icon={faQuoteLeft}  size="xs" /> Aire d' O'ven   <FontAwesomeIcon icon={faQuoteRight} size="xs" /></h2>
         <p>{config.subHeading}</p>
       </div>
     </section>

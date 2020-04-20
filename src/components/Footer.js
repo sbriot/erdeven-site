@@ -36,12 +36,15 @@ export default function Footer() {
             <ul className="contact">
               <li className="fa-home">{config.address}</li>
               <li className="fa-phone">{config.phone}</li>
+              <li>{process.env.REACT_APP_GOOGLE_API_KEY}</li>
             </ul>
           </div>
         </div>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
+          <li>&copy; Ecole de Natation Erdeven - 2020 </li>
           <li>
+
+
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>
         </ul>

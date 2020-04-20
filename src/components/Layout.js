@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
-import SimpleFooter from './SimpleFooter.js';
+
 class Layout extends Component {
   constructor(props) {
     super(props);
@@ -46,11 +45,11 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Ecole de natation Erdeven' },
+                { name: 'keywords', content: 'ecole,erdeven,enfants,natation,apprendre à nager,activités,vacances' },
               ]}
             >
-              <html lang="en" />
+              <html lang="fr" />
             </Helmet>
             <div
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}

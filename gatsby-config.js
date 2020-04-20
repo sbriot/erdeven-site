@@ -4,6 +4,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    siteUrl: `https://ecole-de-natation-erdeven.fr/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -21,5 +22,8 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    'gatsby-plugin-sitemap',
+
+
   ],
 };
