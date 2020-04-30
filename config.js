@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Erdeven Piscine - Ecole de natation', // <title>
+  siteTitle: 'Ecole de natation - Erdeven Quiberon', // <title>
   manifestName: 'Ecole de Natation d\'  Aire d\'O\'ven',
-  manifestShortName: 'ErdevenNat', // max 12 characters
+  manifestShortName: 'NatationErdeven', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.jpg',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Ecole de Natation',
-  subHeading: 'L’école de nat’ accueille les enfants et les adultes dans sa piscine couverte et chauffée. L’occasion d’apprendre à nager ou de se perfectionner pendant l’été.',
+  subHeading: 'L’école de Nat’ accueille les enfants et les adultes dans sa piscine couverte et chauffée. L’occasion d’apprendre à nager ou de se perfectionner pendant l’été.',
   // social
   socialLinks: [
     {

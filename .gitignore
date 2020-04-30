@@ -7,6 +7,8 @@ yarn.lock
 
 # Build directory
 /public
+/pages/Elements.js
+/pages/Generic.js
 .DS_Store
 
 # api keys

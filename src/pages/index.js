@@ -5,6 +5,7 @@ import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import pic4 from '../assets/images/pic04.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -67,6 +68,22 @@ const IndexPage = () => (
             technique de la nage (mouvements et respiration) mais aussi de la découverte d'une
             nouvelle nage (papillon par exemple).
 
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="three" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <a href="/#" className="image">
+            <img src={pic4} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Vincent</h2>
+            <p>
+            Maître-nageur-sauveteur diplômé d'état depuis 20 ans.<br/>
+            Formateur des Brevets Professionnels des Activités de la Natation.
             </p>
 
           </div>
