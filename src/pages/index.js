@@ -97,6 +97,7 @@ const IndexPage = () => (
           <ul className="alt">
             <li>Ouvert non-stop du lundi au samedi de 9H00 à 15H00</li>
           </ul>
+          
           <h4>Tarifs 2020</h4>
           <div className="table-wrapper">
             <table className="alt">
@@ -139,6 +140,37 @@ const IndexPage = () => (
           Une séance dure 20 minutes, la durée idéale pour une concentration de qualité et un engagement moteur optimal.
           L'Ecole de Nat  s'appuie sur 3 niveaux d'enseignement: l'initiation, l'apprentissage et le perfectionnement.
           </blockquote>
+
+        </div>
+        <div className="inner">
+          <h2 className="major">Infos AquaGym Aire d' O'ven</h2>
+         
+          <h4>Horaires AquaGym</h4>
+          <ul className="alt">
+            <li>Mardi , Jeudi et Samedi : 11h50 - 12h35</li>
+          </ul>
+          <h4>Tarifs Aquagym 2020</h4>
+          <div className="table-wrapper">
+            <table className="alt">
+              <thead>
+                <tr>
+                  <th>Description</th>
+                  <th>Prix</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Séance unique</td>
+                  <td>9 €</td>
+                </tr>
+                <tr>
+                  <td>Forfait 10 séances </td>
+                  <td>80 €</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+         
 
         </div>
         </section>
