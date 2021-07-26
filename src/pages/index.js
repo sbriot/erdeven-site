@@ -5,8 +5,10 @@ import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
+import pic5 from '../assets/images/la-belle-iloise-conserverie.png';
+import pic4 from '../assets/images/la-trinitaine-biscuiterie.jpg';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -76,13 +78,13 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic4} alt="" />
-          </a>
+        
+        {/* <a href="" className="image"> <img src={pic4} alt="" ><a>*/}
+
           <div className="content">
-            <h2 className="major">Vincent</h2>
+           {/*<h2 className="major">Vincent</h2>*/} 
             <p>
-            Maître-nageur-sauveteur diplômé d'état depuis 20 ans.<br/>
+            Encadré par un maître-nageur-sauveteur diplômé d'état.<br/>
             Formateur des Brevets Professionnels des Activités de la Natation.
             </p>
 
@@ -95,10 +97,10 @@ const IndexPage = () => (
           <h2 className="major">Infos Piscine Aire d' O'ven</h2>
           <h4>Horaires</h4>
           <ul className="alt">
-            <li>Ouvert non-stop du lundi au samedi de 9H00 à 15H00</li>
+            <li>Ouvert non-stop du lundi au vendredi de 9H00 à 17H00 et le samedi de 9h00 à 13h00</li>
           </ul>
           
-          <h4>Tarifs 2020</h4>
+          <h4>Tarifs 2021</h4>
           <div className="table-wrapper">
             <table className="alt">
               <thead>
@@ -174,7 +176,29 @@ const IndexPage = () => (
 
         </div>
         </section>
-    </section>
+    
+        <section id="three" className="wrapper alt style3">
+          <div className="inner">
+            <h2 className="major">Partenaires</h2>
+            <section class="features">
+              <article>
+                <a href="https://www.latrinitaine.com/" class="image">
+                <img src={pic4} alt=""/>
+                  </a>
+                <h3 class="major">Biscuiterie la Trinitaine</h3>
+                <a href="https://www.latrinitaine.com/" class="special">Découvrir</a>
+              </article>
+              <article>
+                <a href="https://www.labelleiloise.fr/fr/" class="image">
+                  <img src={pic5} alt=""/>
+                  </a>
+                <h3 class="major">Conserverie la belle-iloise</h3>
+                <a href="https://www.labelleiloise.fr/fr/" class="special">Découvrir</a>
+              </article>
+            </section>
+          </div>
+        </section>
+      </section>
   </Layout>
 );
 

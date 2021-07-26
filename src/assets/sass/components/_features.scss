@@ -16,7 +16,7 @@
 			background-color: desaturate(lighten(_palette(bg), 3), 1.5);
 			border-radius: _size(border-radius);
 			margin: (_size(section-spacing, large) * 0.5) _size(section-spacing, large) (_size(section-spacing, large) * 0.5) 0;
-			width: calc(50% - #{_size(section-spacing, large) * 0.5});
+			width: calc(25% - #{_size(section-spacing, large) * 0.5});
 
 			&:nth-child(2n) {
 				margin-right: 0;
@@ -41,7 +41,7 @@
 		@include breakpoint('<=medium') {
 			article {
 				margin: (_size(section-spacing, medium) * 0.5) _size(section-spacing, medium) (_size(section-spacing, medium) * 0.5) 0;
-				width: calc(50% - #{_size(section-spacing, medium) * 0.5});
+				width: calc(25% - #{_size(section-spacing, medium) * 0.5});
 			}
 		}
 
@@ -49,7 +49,7 @@
 			article {
 				@include padding(1.5em, 1.5em);
 				margin: (_size(section-spacing, small) * 0.5) _size(section-spacing, small) (_size(section-spacing, small) * 0.5) 0;
-				width: calc(50% - #{_size(section-spacing, small) * 0.5} - 1px);
+				width: calc(25% - #{_size(section-spacing, small) * 0.5} - 1px);
 
 				.image {
 					margin-bottom: 1.5em;
