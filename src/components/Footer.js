@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="col-6 col-12-medium">
             <ul className="contact">
               <li className="fa-home">{config.address}</li>
-              <li className="fa-phone">{config.phone}</li>
+              <li className="fa-phone">{config.phone_name} : <a href="tel:033662831329">{config.phone}</a></li>
 
             </ul>
           </div>
