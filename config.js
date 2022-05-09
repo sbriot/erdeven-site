@@ -33,7 +33,7 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],*/
-  phone: '06.61.04.33.67',
+  phone: 'Jean-François : 06.62.83.13.29',
   address: 'Boulevard de l\' Atlantique au Spot, lieu d\'activité du bien être, 56410 Erdeven',
 
 };

@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
         </div>
         <ul className="copyright">
-          <li>&copy; Ecole de Natation Erdeven - 2020 </li>
+          <li>&copy; Ecole de Natation Erdeven - 2022 </li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>
