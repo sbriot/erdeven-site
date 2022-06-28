@@ -36,6 +36,6 @@ module.exports = {
   phone_name : 'Jean-François',
   phone: '06.62.83.13.29',
   phonelink: '0033662831329',
-  address: 'Boulevard de l\' Atlantique au Spot, lieu d\'activité du bien être, 56410 Erdeven',
+  address: '4 Boulevard de l\' Atlantique, lieu d\'activité du bien être, 56410 Erdeven',
 
 };
