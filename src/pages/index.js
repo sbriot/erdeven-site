@@ -7,6 +7,7 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic5 from '../assets/images/la-belle-iloise-conserverie.png';
 import pic4 from '../assets/images/la-trinitaine-biscuiterie.jpg';
+import pic8 from '../assets/images/sublimons-logo.png';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -158,6 +159,15 @@ const IndexPage = () => (
                 <h3 class="major">Biscuiterie la Trinitaine</h3>
                 <a href="https://www.latrinitaine.com/" class="special">Découvrir</a>
               </article>
+
+              <article>
+                <a href="https://www.sublimons.com/" class="image">
+                <img src={pic8} alt=""/>
+                  </a>
+                <h3 class="major">Sublimons</h3>
+                <a href="https://www.sublimons.com/" class="special">Découvrir</a>
+              </article>
+
               <article>
                 <a href="https://www.labelleiloise.fr/fr/" class="image">
                   <img src={pic5} alt=""/>
