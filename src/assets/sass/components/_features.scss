@@ -19,7 +19,7 @@
 			width: calc(25% - #{_size(section-spacing, large) * 0.5});
 
 			&:nth-child(2n) {
-				margin-right: 0;
+				margin-right: 3em;
 			}
 
 			.image {
