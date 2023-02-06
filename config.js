@@ -33,9 +33,9 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],*/
-  phone_name : 'Jean-François',
-  phone: '06.62.83.13.29',
-  phonelink: '0033662831329',
+  phone_name : 'Julie',
+  phone: '06.61.04.33.67',
+  phonelink: '0033661043367',
   address: '4 Boulevard de l\' Atlantique, lieu d\'activité du bien être, 56410 Erdeven',
 
 };
