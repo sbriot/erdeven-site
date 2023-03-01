@@ -140,7 +140,7 @@ const IndexPage = () => (
           <h4>Erdeven Nat'</h4>
           <blockquote>
           Les leçons de natations sont dispensés par un maître-nageur diplômé d'état offrant à vos enfants des progrès visibles et des résultats garantis.
-          Une séance dure 20 minutes, la durée idéale pour une concentration de qualité et un engagement moteur optimal.
+          Une séance dure 30 minutes, la durée idéale pour une concentration de qualité et un engagement moteur optimal.
           L'Ecole de Nat  s'appuie sur 3 niveaux d'enseignement: l'initiation, l'apprentissage et le perfectionnement.
           </blockquote>
 
